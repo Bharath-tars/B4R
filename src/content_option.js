@@ -136,7 +136,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "bharathworks2u@gmail.com",
     YOUR_FONE: "+91 8639196174",
-    description: "I'm hell - bent about making a real difference... let's catch up!! -> Try using the hyperlink above if the message box keeps loading.",
+    description: "I'm hell - bent about making a real difference... let's catch up!!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_50ruluq",
