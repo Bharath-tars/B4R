@@ -20,15 +20,19 @@ export const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormdata({ loading: true });
-
+  
+    console.log("Form data: ", formData);
+  
     const templateParams = {
       from_name: formData.email,
       user_name: formData.name,
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
     };
-
-    emailjs.init("QPL5X5FVXIT7rA81R")
+  
+    console.log("EmailJS template params: ", templateParams);
+  
+    emailjs
       .send(
         contactConfig.YOUR_SERVICE_ID,
         contactConfig.YOUR_TEMPLATE_ID,
@@ -40,7 +44,7 @@ export const ContactUs = () => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! Thank you for your message.",
             variant: "success",
             show: true,
           });
@@ -48,15 +52,17 @@ export const ContactUs = () => {
         (error) => {
           console.log(error.text);
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+            alertmessage: `Failed to send message: ${error.text}`,
             variant: "danger",
             show: true,
           });
-          document.getElementsByClassName("co_alert")[0].scrollIntoView();
+          document
+            .getElementsByClassName("co_alert")[0]
+            .scrollIntoView({ behavior: "smooth" });
         }
       );
   };
-
+  
   const handleChange = (e) => {
     setFormdata({
       ...formData,
@@ -165,3 +171,4 @@ export const ContactUs = () => {
     </HelmetProvider>
   );
 };
+
