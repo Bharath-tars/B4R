@@ -1,7 +1,7 @@
 const logotext = "B4R";
 const meta = {
     title: "B4R",
-    description: "I’m Bharath Sudarsanam API developer _ Front End Developer,currently studying in India",
+    description: "I’m Bharath Sudarsanam FUll Stack Developer,currently studying in India",
 }
 
 const introdata = {
@@ -12,7 +12,7 @@ const introdata = {
         third: "Founder @TarsAi",
         forth: "#DOGETOTHEMOON",
     },
-    description: "Developer, Designer & Freelancer. I embrace challenges and ain't afraid to break the mold. Let's link up to change the game and make some history!",
+    description: "Full Stack Developer, Designer & Freelancer. I embrace challenges and ain't afraid to break the mold. Let's link up to change the game and make some history!",
     your_img_url: "https://i.ibb.co/h2HS0rY/My-project-1-21.png",
 };
 
@@ -26,19 +26,34 @@ const worktimeline = [{
         date: "Oct 2021 - Nov 2021",
     },
     {
+        jobtitle: "Technical and Product Dev Intern",
+        where: "MLRIT CIE",
+        date: "Jul 2022 - Jun 2023",
+    },
+    {
         jobtitle: "Web Developer Intern",
         where: "TXON",
         date: "Oct 2022 - Dec 2022",
     },
     {
-        jobtitle: "Technical and Product Dev Intern",
+        jobtitle: "Data Analyst",
+        where: "TSF",
+        date: "Mar 2023 - May 2023",
+    },
+     {
+        jobtitle: "Arcade Facilitator Trainee",
+        where: "Google Arcade Qwiklabs",
+        date: "May 2023 - Aug 2023",
+    },
+    {
+        jobtitle: "Project Manager",
         where: "MLRIT CIE",
-        date: "Jul 2022 - Present",
+        date: "Jun 2023 - Present",
     },
     {
         jobtitle: "Founder",
         where: "Tars Ai",
-        date: "Feb 2023",
+        date: "Feb 2023 - Present",
     },
 ];
 
@@ -51,12 +66,20 @@ const skills = [{
         value: 80,
     },
     {
-        name: "Javascript",
-        value: 60,
+        name: "PostgreSQL",
+        value: 80,
     },
     {
-        name: "React",
+        name: "Flask",
         value: 75,
+    },
+    {
+        name: "Gcloud",
+        value: 70,
+    },
+    {
+        name: "Javascript",
+        value: 60,
     },
     {
         name: "CPP/C",
@@ -81,7 +104,7 @@ const services = [{
         description: "API development involves creating a set of protocols and tools for building software applications, allowing communication between different systems and enabling data exchange between them.",
     },
     {
-        title: "Wordpress Design",
+        title: "Wordpress Design and Full Stack Development",
         description: "WordPress design involves customizing the visual appearance and functionality of a website built with the WordPress content management system, using themes, plugins, and other design elements to create a unique and user-friendly online presence.",
     },
 ];
@@ -147,8 +170,8 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/Bharath-tars",
     facebook: "https://facebook.com",
-    linkedin: "https://www.linkedin.com/in/bharath-s-81b4bb1a4/",
-    twitter: "https://twitter.com/itzmebharath300",
+    linkedin: "https://www.linkedin.com/in/bharath-sudarsanam/",
+    twitter: "https://twitter.com/Bharathtars1991",
     Codepen: "https://codepen.io/bharath-tars",
 };
 export {
